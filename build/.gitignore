@@ -8,3 +8,6 @@ conanbuildinfo.cmake
 conanbuildinfo.txt
 conaninfo.txt
 graph_info.json
+.ninja_deps
+.ninja_log
+build.ninja
