@@ -1,4 +1,4 @@
-# conan glfw prj test
+# conan glfw
 
 ### gcc
 ```
