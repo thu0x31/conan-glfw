@@ -1,0 +1,15 @@
+build/CMakeCache.txt
+build/CMakeFiles/
+build/Makefile
+build/bin/
+build/cmake_install.cmake
+build/conan.lock
+build/conanbuildinfo.cmake
+build/conanbuildinfo.txt
+build/conaninfo.txt
+build/graph_info.json
+build/.ninja_deps
+build/.ninja_log
+build/build.ninja
+build/compile_commands.json
+build/.cmake/
