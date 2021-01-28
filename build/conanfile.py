@@ -1,13 +1,14 @@
 from conans import ConanFile, CMake
 
 class GlfwProject(ConanFile):
+    name = "GlfwProject"
     settings = "os", "compiler", "build_type", "arch"
-    requires = "glfw/3.3.2"
     generators = "cmake"
-    build_dir = "ConanInstallFiles/"
+    requires = [
+            "glfw/3.3.2",
+        ]
 
-    def requirements(self):
-        self.requires("glfw/3.3.2")
+    # TODO: install_folder & build_folder
 
     # $conan build .
     def build(self):
